@@ -1,0 +1,31 @@
+body{
+    background-color: beige;
+}
+
+.flex-container{
+    background-color: #ccc;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex; /* Define el comportamiento flex*/
+   /* flex-direction: row;  Organizacion de manera de columna
+    flex-wrap: wrap;Esta opcion permite que al llenarse la caja se organizen abajo*/
+    flex-flow: row wrap; /*Esta opcion combina las dos anteriores en una sola instruccion*/
+    justify-content: space-between;/*Organizacion de manera horizontal*/
+    align-items: flex-start; /* Organizacion de manera vertical*/
+    width: 80%;
+    margin:0 auto;
+
+}
+.caja {
+    border: 1px solid #946f6f ;
+    background-color: white;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+

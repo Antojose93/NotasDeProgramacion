@@ -1,0 +1,4 @@
+Error lens: Revisa errores de codigo
+Material Icon Theme: Ayuda visual
+Activitus Bar: 
+auto rename tag
